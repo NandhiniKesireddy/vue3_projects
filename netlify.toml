@@ -8,6 +8,49 @@
   base = ""  # Ensure this path is correct if your Vue project is nested
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/Accordian/*"
+  to = "/Accordian/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/Calculator/*"
+  to = "/Calculator/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/DadJokes/*"
+  to = "/DadJokes/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/FormValidation/*"
+  to = "/FormValidation/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/GitHubUsersSearch/*"
+  to = "/GitHubUsersSearch/index.html"
+  status = 200
+[[redirects]]
+  from = "/PasswordGenerator/*"
+  to = "/PasswordGenerator/index.html"
+  status = 200
+[[redirects]]
+  from = "/ProgressSteps/*"
+  to = "/ProgressSteps/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/RandomQuoteGenerator/*"
+  to = "/RandomQuoteGenerator/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/To-Do-List/*"
+  to = "/To-Do-List/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/WikiClone/*"
+  to = "/WikiClone/index.html"
   status = 200
