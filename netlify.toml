@@ -1,5 +1,9 @@
 [build]
-  command = "npm run build"
+  command = "npm run build --prefix Accordian && npm run build --prefix Calculator && 
+    npm run build --prefix DadJokes && npm run build --prefix FormValidation && 
+    npm run build --prefix GitHubUsersSearch && npm run build --prefix PasswordGenerator &&
+    npm run build --prefix ProgressSteps" && npm run build --prefix RandomQuoteGenerator" && 
+    npm run build --prefix To-Do-List" && npm run build --prefix WikiClone
   publish = "vue3_folder/dist"
   base = ""  # Ensure this path is correct if your Vue project is nested
 
