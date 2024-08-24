@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build --prefix Accordian && npm run build --prefix Calculator && 
+  command = "npm run build --prefix Accordion && npm run build --prefix Calculator && 
     npm run build --prefix DadJokes && npm run build --prefix FormValidation && 
     npm run build --prefix GitHubUsersSearch && npm run build --prefix PasswordGenerator &&
     npm run build --prefix ProgressSteps" && npm run build --prefix RandomQuoteGenerator" && 
