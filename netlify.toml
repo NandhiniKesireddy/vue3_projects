@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build --prefix Accordion && npm run build --prefix Calculator && npm run build --prefix DadJokes && npm run build --prefix FormValidation && npm run build --prefix GitHubUsersSearch && npm run build --prefix PasswordGenerator && npm run build --prefix ProgressSteps" && npm run build --prefix RandomQuoteGenerator" && npm run build --prefix To-Do-List" && npm run build --prefix WikiClone
+  command = "npm run build --prefix Accordian && npm run build --prefix Calculator && npm run build --prefix DadJokes && npm run build --prefix FormValidation && npm run build --prefix GitHubUsersSearch && npm run build --prefix PasswordGenerator && npm run build --prefix ProgressSteps && npm run build --prefix RandomQuoteGenerator && npm run build --prefix To-Do-List && npm run build --prefix WikiClone"
   publish = "vue3_folder/dist"
   base = ""  # Ensure this path is correct if your Vue project is nested
 
@@ -27,10 +27,12 @@
   from = "/GitHubUsersSearch/*"
   to = "/GitHubUsersSearch/index.html"
   status = 200
+
 [[redirects]]
   from = "/PasswordGenerator/*"
   to = "/PasswordGenerator/index.html"
   status = 200
+
 [[redirects]]
   from = "/ProgressSteps/*"
   to = "/ProgressSteps/index.html"
